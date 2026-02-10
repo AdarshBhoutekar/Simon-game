@@ -1,0 +1,44 @@
+body{
+    text-align : center ;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 2.5rem;
+    text-align: center;
+    align-content: center;
+    transition: all 0.15s ease-in-out;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#red{
+    background-color: rgb(255, 136, 0);
+}
+#yellow {
+    background-color: rgb(242, 255, 0);
+}
+#blue {
+    background-color: rgb(0, 213, 255);
+}
+#green {
+    background-color: rgb(4, 255, 0);
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userFlash{
+    background-color: rgba(0, 0, 0, 0.322) !important;
+}
+h1,h2 {
+    font-family: 'Press Start 2P', cursive;
+}
